@@ -29,3 +29,5 @@ cd backend/personality_analysis/app
 uvicorn routes:app
 
 ```
+## Model Credits
+- [Social BERTerfly](https://github.com/MLH-Fellowship/Social-BERTerfly)
