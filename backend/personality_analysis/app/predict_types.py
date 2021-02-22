@@ -31,7 +31,7 @@ def recreate_model():
     loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
     model.compile(loss='categorical_crossentropy', optimizer=tf.keras.optimizers.Adam(
     learning_rate=0.00001), metrics=['accuracy'])
-    model.load_weights("../utils/model_weights/bert_base_model.h5")
+    model.load_weights("./utils/model_weights/bert_base_model.h5")
     return model
 
 new_model = recreate_model()

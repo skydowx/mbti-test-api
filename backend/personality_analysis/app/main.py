@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Form
-from predict_types import predict_text
+from .predict_types import predict_text
 import uvicorn
 
 app = FastAPI()

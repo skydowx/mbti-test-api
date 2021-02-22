@@ -1,8 +1,13 @@
 # MBTI test API
 
 ## TODO
-- write proper Dockerfile and docker-compose.yml
-- configure a dockerized postgres server and save personality data
+- configure following dockerized services:
+    - postgres
+    - mongodb
+- Also setup the following for the project:
+    - pylint
+    - pydantic
+    - pytest
 
 ## Steps to run
 
