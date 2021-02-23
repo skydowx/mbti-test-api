@@ -6,7 +6,6 @@
     - mongodb
 - Also setup the following for the project:
     - pylint
-    - pydantic
     - pytest
 
 ## Dependencies
